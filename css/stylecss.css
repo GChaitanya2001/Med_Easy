@@ -1,0 +1,150 @@
+body
+{
+    margin:0;
+    padding:0;
+    background-position:center;
+    background-image: url('images/bg.jpg'); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header
+{
+    background-color: lightskyblue;
+    font-size:32px;
+    padding:25px;
+    width:100%;
+    color:navy;
+    position:absolute;
+    margin:0 auto;
+    text-align:center;
+}
+
+p{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.loginbox
+{
+    width:400px;
+    height:500px;
+    top:275px;
+    left:50%; 
+    margin:0 auto;
+    position:absolute;
+    transform:translate(-50%,-20%);
+    background-color: lightskyblue;
+    padding:50px;
+    border-radius:10%;
+    box-sizing:border-box;
+    padding:70px 30px;
+}
+
+.loginimg
+{
+ width:120px;
+ height:110px;
+ border-radius:50%;
+ position:absolute;
+ top:-50px;
+ left:calc(50% - 50px);
+}
+
+h1{
+  margin:0;
+  padding:0 0 20px;
+  font-size:22px;
+  text-align:center;
+}
+
+.loginbox p,label{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+    font-size:18px;
+}
+
+nav{
+    background:navy;
+    height:20%;
+    top:200px;
+    padding:0;
+    text-align:center;
+    width:100%;
+    line-height: 1;
+    overflow: hidden;
+}
+nav a{
+    display:inline-block;
+    font-size:18px;
+    text-align:center;
+    padding:20px;
+    margin-top:10px;
+    color:white;
+    background:black;  
+    text-decoration:none;
+    border-right:none;
+}
+
+textarea {
+    min-width: 900px;
+    max-width: 900px;
+
+    width: 90%;
+    height: 90%;
+
+    min-height: 150px;
+    max-height: 150px;
+    border:solid 1px;
+
+    overflow: auto;
+    resize:none;
+}
+
+nav a:hover{
+    background:#ff3300;
+}
+
+.loginbox input{
+    margin-bottom:20px;
+    font-size:20px;
+}
+
+.loginbox input[type="text"],input[type="password"],input[type="email"],input[type="url"],input[type="date"],input[type="number"],select
+{
+    width:100%;
+    background:transparent;
+    border:none;
+    height:40px;
+    border-bottom:1px solid #000;
+    font-size:18px;
+    outline:none;
+    color:black;
+    font-size:16px;  
+}
+
+.loginbox input[type="submit"]
+{
+    width:75%;
+    background:navy;
+    border:none;
+    outline:none;
+    height:40px;  
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+}
+
+.loginbox input[type="submit"]:hover{
+    background-color:royalblue;
+    cursor:pointer;
+    color:black;
+}
+
+.loginbox a{
+    text-decoration:none;
+    font-size:15px;
+    line-height:20px;
+    color:#e04413;
+} 

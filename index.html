@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>MED-EASY</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0;">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sans-serif">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/stylecss.css">
+    </head>
+    <body style = "background-image: url('images/bg.jpg');">
+        <header style="font-weight:bold;">
+            MED-EASY
+        </header><br><br><br><br>
+        <div class="loginbox">
+            <img src="images/logo.png" style = "border-radius:0%" alt="Bad Attempt!" class="loginimg">
+            <center><h1 style="font-weight:bold;font-size:32px;">Login</h1></center>
+            <form action="login.php" method="post">
+                <p>Username</p>
+                <input type="text" id = "username" name="username" placeholder="Enter Username" required="" autocomplete="off">
+                <p>Password</p>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required="" autocomplete="off">
+                <p>User Type</p>
+                <select name="utype" required="">
+                    <option value="">--SELECT--</option>
+                    <option value="med_admin">Admin</option>
+                    <option value="owner">Owner</option>
+                    <option value="receptionist">Receptionist</option>
+                </select><br><br>
+                <center><input type="submit" name = "submit" value="Login"></center>
+            </form>
+        </div><br><br><br><br><br><br>
+    </body>
+</html>
