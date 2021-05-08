@@ -2,7 +2,7 @@
 DBMS course project, An Inventory management system for Pharmacies
      
 ## Technologies
-    *css
-    *Java Script
-    *php
-    *MySQL
+  * css
+  * Java Script
+  * php
+  * MySQL
